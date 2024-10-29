@@ -1,0 +1,134 @@
+
+
+body{
+	background-color: rgb(230, 230, 230 );
+	color: darkblue;
+	font-family: Century Schoolbook;
+
+}
+
+h1{
+	color:slateblue ;
+	front-family:helvetica;
+	front-weight:100 auto ;
+	letter-spacing: 10px;
+	front-size:60px;
+	}
+
+h2{
+	color: royalblue;
+	front-family:helvetica;
+	front-weight:100;
+	letter-spacing: 10px;
+	front-size:60px;
+	}
+
+
+a{
+
+	text-decoration:none;
+	color:deepskyblue;
+}
+
+a:hover{
+
+	color: skyblue;
+
+} 
+
+
+div{
+	background: floralwhite;
+	border:2px ;
+	margin: 25px;
+	padding: 5px;
+
+background: white;                         
+padding: 30px;                          
+border-radius: 4px;                       
+box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+
+}
+
+
+.img-circle{
+	border-radius: 50%;
+	width: 30%;
+	height: 30%;
+}
+
+.btn-blue{
+	background-color: darkblue;
+	color: floralwhite;
+	padding: 15px 20px;
+	border-radius: 6px  ;
+
+}
+
+
+.btn-blue:hover{
+	background-color: lightblue;
+	color: floralwhite;
+
+}
+
+
+.list-inline{
+	list-style: none;
+	padding-left: 10px auto ;
+}
+
+.list-inline {
+	display: inline;
+	padding: 20px;
+}
+
+.list-inline   a{
+	front-size: 20px;
+	color: darkblue;
+
+}
+
+.list-inline a:hover {
+	front-size: 20 px;
+	color: lightskyblue;
+
+}
+
+
+#introduction p {
+	margin-bottom:40px;
+
+}
+
+
+.container {
+	width: 700px;
+	margin: 4px auto;
+}
+
+
+.vroom {
+	background: floralwhite;
+    margin: 50px;
+    padding: 60px;
+    box-shadow: 0px 10px 30px rgba(0,0,0.1);
+    border-radius: 25px;
+    text-align: center;
+}
+
+@media (max-width: 960px) {
+  #introduction {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  #introduction {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  #introduction {
+    width: 300px;
+  }
+}
